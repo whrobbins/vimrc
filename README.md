@@ -7,4 +7,4 @@ Clone this repo and put .vimrc.after in your home directory (or wherever it need
 
 # Features
 Janus comes packed with features. 
-On top of that, this takes care of tabbing, turns on syntax highlighting, and remaps '<esc>' to 'jk'
+On top of that, this takes care of tabbing, turns on syntax highlighting, and remaps esc to 'jk'
