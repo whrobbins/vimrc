@@ -1,10 +1,10 @@
-# vimrc
-.vimrc.after (to be used with Janus).  Made to copy from any remote terminal
+# My Vim, Tmux, and Zsh configs
+To install, simply run:
 
-# To Install
-Download and install (Janus)[https://github.com/carlhuda/janus]
-Clone this repo and put .vimrc.after in your home directory (or wherever it needs to be)
-
-# Features
-Janus comes packed with features. 
-On top of that, this takes care of tabbing, turns on syntax highlighting, and remaps esc to 'jk'
+```
+cd vimrc
+cp .tmux.conf ~/.tmux.conf
+cp .vimrc ~/.vimrc
+cp .zshrc ~/.zshrc
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
