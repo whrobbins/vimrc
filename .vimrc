@@ -1,6 +1,3 @@
-" TO SETUP:
-" Simply run git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -22,7 +19,7 @@ Plugin 'L9'
 " Git plugin not hosted on GitHub
 Plugin 'git://git.wincent.com/command-t.git'
 " git repos on your local machine (i.e. when working on your own plugin)
-Plugin 'file:///home/gmarik/path/to/plugin'
+" Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -30,7 +27,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 Plugin 'Syntastic' "uber awesome syntax and errors highlighter
-" Plugin 'valloric/youcompleteme'
+" Plugin 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -70,3 +67,4 @@ syntax on           " Turns syntax highlighting on
 set number          " Line numbers
 
 set mouse=a         " Click to place cursor, click/drag for Visual mode selection, scroll
+
